@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34031.279
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HouseApp_APIs", "HouseApp_APIs.csproj", "{524DFE94-BE20-4FEC-B0CC-A63483BA414F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{524DFE94-BE20-4FEC-B0CC-A63483BA414F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{524DFE94-BE20-4FEC-B0CC-A63483BA414F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{524DFE94-BE20-4FEC-B0CC-A63483BA414F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{524DFE94-BE20-4FEC-B0CC-A63483BA414F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {439EC7E2-6E50-417D-9BBC-C5591A1E234D}
+	EndGlobalSection
+EndGlobal
