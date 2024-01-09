@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "jdNHUcvyod3Fj9PsXTQ2Huq2T5bUTj3+nYItfgV21yqRYar69bYf4eKVvZDx8TmrM/GATbGfy2uqUD8/9ynxXg==",
+  "dgSpecHash": "5VQU9X18n1XuZfoRF9cxiAw1+t9rIDxajBwEiiLFKY2GkHyOTKRgj9fMSsKv1yg9m9WC3WsXRL+GbI4sBU9AcA==",
   "success": true,
   "projectFilePath": "C:\\Users\\jbtok\\source\\repos\\HouseApp_APIs\\HouseApp_APIs.csproj",
   "expectedPackageFiles": [
@@ -14,6 +14,8 @@
     "C:\\Users\\jbtok\\.nuget\\packages\\microsoft.openapi\\1.4.3\\microsoft.openapi.1.4.3.nupkg.sha512",
     "C:\\Users\\jbtok\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512",
     "C:\\Users\\jbtok\\.nuget\\packages\\newtonsoft.json.bson\\1.0.2\\newtonsoft.json.bson.1.0.2.nupkg.sha512",
+    "C:\\Users\\jbtok\\.nuget\\packages\\serilog\\2.10.0\\serilog.2.10.0.nupkg.sha512",
+    "C:\\Users\\jbtok\\.nuget\\packages\\serilog.sinks.file\\5.0.1-dev-00972\\serilog.sinks.file.5.0.1-dev-00972.nupkg.sha512",
     "C:\\Users\\jbtok\\.nuget\\packages\\swashbuckle.aspnetcore\\6.5.0\\swashbuckle.aspnetcore.6.5.0.nupkg.sha512",
     "C:\\Users\\jbtok\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.5.0\\swashbuckle.aspnetcore.swagger.6.5.0.nupkg.sha512",
     "C:\\Users\\jbtok\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.5.0\\swashbuckle.aspnetcore.swaggergen.6.5.0.nupkg.sha512",

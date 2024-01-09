@@ -1,5 +1,6 @@
 ﻿
 using HouseApp_APIs.Data;
+using HouseApp_APIs.Logger;
 using HouseApp_APIs.Models;
 using HouseApp_APIs.Models.Dto;
 using Microsoft.AspNetCore.JsonPatch;
@@ -11,6 +12,20 @@ namespace HouseApp_APIs.Controllers
     [ApiController]
     public class VillaAPIController : ControllerBase
     {
+
+        private readonly ILogging _logger;
+
+
+        public  VillaAPIController(ILogging logger)
+        {
+            _logger= logger;
+
+        }
+
+
+
+
+
         // GET: api/VillaAPI - get all villas
         [HttpGet]
                 [ProducesResponseType(StatusCodes.Status200OK)]
@@ -18,6 +33,7 @@ namespace HouseApp_APIs.Controllers
                 [ProducesResponseType(StatusCodes.Status400BadRequest)]
         public ActionResult <IEnumerable<VillaDto>> GetVillas()
         {
+            _logger.Log("Getting all villas", "error");
             return Ok(VillaStore.VillaList);
 
         }
@@ -31,7 +47,8 @@ namespace HouseApp_APIs.Controllers
 
         public ActionResult <VillaDto> GetVilla(int id)
         {
-            if(id == 0) { 
+            if(id == 0) {
+                _logger.Log("Get Villa Error with ID"+ id, "error");
                 return BadRequest(); 
             }
             var villa = VillaStore.VillaList.FirstOrDefault(u => u.Id == id);

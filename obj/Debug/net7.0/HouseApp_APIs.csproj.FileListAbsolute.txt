@@ -38,3 +38,5 @@ C:\Users\jbtok\source\repos\HouseApp_APIs\bin\Debug\net7.0\Microsoft.AspNetCore.
 C:\Users\jbtok\source\repos\HouseApp_APIs\bin\Debug\net7.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
 C:\Users\jbtok\source\repos\HouseApp_APIs\bin\Debug\net7.0\Newtonsoft.Json.dll
 C:\Users\jbtok\source\repos\HouseApp_APIs\bin\Debug\net7.0\Newtonsoft.Json.Bson.dll
+C:\Users\jbtok\source\repos\HouseApp_APIs\bin\Debug\net7.0\Serilog.dll
+C:\Users\jbtok\source\repos\HouseApp_APIs\bin\Debug\net7.0\Serilog.Sinks.File.dll
